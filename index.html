@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;700&family=Prosto+One&family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+        <title>Createx</title>
+
+        <link rel="stylesheet" href="normalize/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/star_rating.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="topbar">
+                <div class="container">
+                    <div class="topbar__inner">
+                        <span class="topbar__label">Available 24/7 at (405) 555-0128</span>
+                        <nav class="topbar-menu">
+                            <ul class="topbar-menu__list">
+                                <li class="topbar-menu__item">
+                                    <a class="topbar-menu__link" href="#">Delivery & returns</a>
+                                </li>
+                                <li class="topbar-menu__item">
+                                    <a class="topbar-menu__link" href="#">Track order</a>
+                                </li>
+                                <li class="topbar-menu__item">
+                                    <a class="topbar-menu__link" href="#">Blog</a>
+                                </li>
+                                <li class="topbar-menu__item">
+                                    <a class="topbar-menu__link" href="#">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="topbar-choice-of-currency">
+                            <img class="choice-of-currency__icon" src="img/header-logo/flag-usa.svg" alt="flag USA">
+                            <select name="choice-of-currency" id="">
+                                <option selected value="">Eng / $</option>
+                            </select>
+                        </div>
+                        <div class="topbar-account">
+                            <img class="account__user-icon" src="img/header-logo/user-icon.svg" alt="user icon">
+                            <ul class="account-profile__list">
+                                <li class="account-profile__item">
+                                    <a class="account-profile__link" href="#">Log in</a>
+                                </li>
+                                <li class="account-profile__item">
+                                    <a class="account-profile__link" href="#">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar__inner">
+                        <img class="navbar__logo-title" src="img/header-logo/logo.svg" alt="logo title">
+                        <nav class="navbar__menu">
+                            <ul class="navbar__list">
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Women</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Men</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Girls</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Boys</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link navbar__link--promo" href="#">Sale</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <form class="navbar__form" action="">
+                            <input class="navbar__input-search" type="text" placeholder="Search for products...">
+                        </form>
+                        <div class="toolbar">
+                            <div class="toolbar-wishlist">
+                                <img class="wishlist__icon" src="img/header-logo/heart-fav.svg" alt="heart icon">
+                                <span class="wishlist__value">2</span>
+                            </div>
+                            <div class="toolbar-cart">
+                                <img class="cart__icon" src="img/header-logo/basket.svg" alt="basket icon">
+                                <span class="cart__value">4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="special-offers">
+                <div class="container">
+                    <div class="special-offers__inner">
+                        <div class="special-offers-carousel-container">
+                            <ul class="special-offers-carousel-track__list">
+                                <!--track-->
+                                <li class="special-offers-carousel-track__items">
+                                    <span class="special-offers-carousel-track__text">Up to 70% Off. </span>
+                                    <a href="#" class="special-offers-carousel-track__link">Shop our latest sale
+                                        styles</a>
+                                </li>
+                                <li class="special-offers-carousel-track__items">
+                                    <span class="special-offers-carousel-track__text">Up to 70% Off. </span>
+                                    <a href="#" class="special-offers-carousel-track__link">Shop our latest sale
+                                        styles</a>
+                                </li>
+                                <li class="special-offers-carousel-track__items">
+                                    <span class="special-offers-carousel-track__text">Up to 70% Off. </span>
+                                    <a href="#" class="special-offers-carousel-track__link">Shop our latest sale
+                                        styles</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="special-offers-carousel__buttons">
+                            <button class="special-offers-carousel__btn--prev"></button>
+                            <button class="special-offers-carousel__btn--next"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main-slider__container">
+                        <div class="main-slider__track">
+                            <div class="main-slider__item">
+                                <p class="main-slider__item-text">New collection</p>
+                                <h1 class="main-slider__item-title">Menswear 2020</h1>
+                                <div class="main-slider__links-group">
+                                    <a class="main-slider__link--sale">Shop sale</a>
+                                    <a class="main-slider__link--large">Shop the menswear</a>
+                                </div>
+                            </div>
+                            <div class="main-slider__item">
+                                <p class="main-slider__item-text">New collection</p>
+                                <h1 class="main-slider__item-title">Womenswear 2021</h1>
+                                <div class="main-slider__links-group">
+                                    <a class="main-slider__link--sale">Shop sale</a>
+                                    <a class="main-slider__link--large">Shop the menswear</a>
+                                </div>
+                            </div>
+                            <div class="main-slider__item">
+                                <p class="main-slider__item-text">New collection</p>
+                                <h1 class="main-slider__item-title">Kidswear 2022</h1>
+                                <div class="main-slider__links-group">
+                                    <a class="main-slider__link--sale">Shop sale</a>
+                                    <a class="main-slider__link--large">Shop the menswear</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider__buttons-group">
+                        <button class="main-slider__button button-prev">
+                            <img class="main-slider__button-arrow" src="img/arrow/arrow-prev.svg" alt="">
+                        </button>
+                        <button class="main-slider__button button-next">
+                            <img class="main-slider__button-arrow" src="img/arrow/arrow-next.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="main-slider__pagination">
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <span class="pagination-item__count count__active">01</span>
+                                <span class="pagination-item__border-bottom border-bottom__active"></span>
+                            </li>
+                            <li class="pagination__item">
+                                <span class="pagination-item__count">02</span>
+                                <span class="pagination-item__border-bottom"></span>
+                            </li>
+                            <li class="pagination__item">
+                                <span class="pagination-item__count">03</span>
+                                <span class="pagination-item__border-bottom"></span>
+                            </li>
+                            <li class="pagination__item">
+                                <span class="pagination-item__count">04</span>
+                                <span class="pagination-item__border-bottom"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <section class="top-categories">
+            <div class="container">
+                <div class="top-categories__inner">
+                    <div class="categories__wrapper">
+                        <img class="categories__img" src="img/categories_foto/women.jpg" alt="women foto">
+                        <span class="categories__discription">Women&#39;s</span>
+                    </div>
+                    <div class="categories__wrapper">
+                        <img class="categories__img" src="img/categories_foto/mens.jpg" alt="men foto">
+                        <span class="categories__discription">Men&#39;s</span>
+                    </div>
+                    <div class="categories__wrapper">
+                        <img class="categories__img" src="img/categories_foto/kids.jpg" alt="kids foto">
+                        <span class="categories__discription">Kid&#39;s</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new-arrivals">
+            <div class="wrapper">
+                <div class="new-arrivals__inner">
+                    <h1 class="new-arrivals__title">New arrivals</h1>
+                    <p class="new-arrivals__subtitle">Check out our latest arrivals for the upcoming season</p>
+                    <div class="new-arrivals__link-wrapp"><a class="new-arrivals__link">See the collection here</a></div>
+
+                    <!-- Slider main container -->
+                    <div class="swiper new-arrivals__swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper new-arrivals__swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/1.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Black and white sport cap</span>
+                                        <span class="product-cart__price">$18.15</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/2.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Metal bridge sunglasses</span>
+                                        <span class="product-cart__price">$89.95</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/3.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Green baby romper</span>
+                                        <span class="product-cart__price">$20.40</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/4.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Mid-rise slim cropped fit jeans</span>
+                                        <span class="product-cart__price">$40.00</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/5.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Red dangle earrings</span>
+                                        <span class="product-cart__price">$29.95</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="swiper-slide new-arrivals__swiper-slide">
+                                <div class="new-arrivals__product-cart">
+                                    <img class="product-cart__img" src="img/new-arrivals/6.jpg" alt="">
+                                    <div class="product-cart__discription-inner">
+                                        <span class="product-cart__discription">Baby shoes with laces</span>
+                                        <span class="product-cart__price">$30.60</span>
+                                    </div>
+                                    <div class="product-cart__favorite-wrapp">
+                                        <span class="material-symbols-outlined">favorite</span>
+                                    </div>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input class="rating__star" type="radio" name="health" value="1" aria-label="Ужасно" checked>
+                                            <input class="rating__star" type="radio" name="health" value="2" aria-label="Сносно">
+                                            <input class="rating__star" type="radio" name="health" value="3" aria-label="Нормально">
+                                            <input class="rating__star" type="radio" name="health" value="4" aria-label="Хорошо">
+                                            <input class="rating__star" type="radio" name="health" value="5" aria-label="Отлично">
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- If we need pagination -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <script src="script/script.js"></script>
+        <script src="script/special-offers__slider.js"></script>
+        <script src="script/main-slider.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="script/new-arrivals-swipper-slider.js"></script>
+    </body>
+
+</html>
